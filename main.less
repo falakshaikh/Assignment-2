@@ -1,17 +1,35 @@
 // out: css/main.css, sourcemap: true
 
+/*body {
+  image: url('images/pacman_wallpaper_by_jamesrudge.jpg') center center fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
 
-img{
-  height: auto;
-  width: 40%;
-  max-width: 350px;
-  min-width: 350px;
 }
+
+*/
 
 html {
-  background: url(pacman_wallpaper_by_jamesrudge.jpg);
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background-color: black;
+  background-image: url("../images/pacman_wallpaper_by_jamesrudge-no-pacman.jpg");
+  background-size: contain;
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: repeat-y;
 }
+
+body {
+  background-image: url("../images/pacman_wallpaper_by_jamesrudge-yes-pacman.jpg");
+  background-size: contain;
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+// img {
+//   position:fixed;
+//   top:0px;
+//   left:0px;
+//   width:100%;
+//   height:auto;
+// }
