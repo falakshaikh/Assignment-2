@@ -1,18 +1,10 @@
-/*body {
-  image: url('images/pacman_wallpaper_by_jamesrudge.jpg') center center fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
-
-}
-
-*/
 html {
   background-color: black;
   background-image: url("../images/pacman_wallpaper_by_jamesrudge-no-pacman.jpg");
   background-size: contain;
   background-position: center center;
   background-attachment: fixed;
-  background-repeat: repeat-y;
+  background-repeat: repeat;
 }
 body {
   background-image: url("../images/pacman_wallpaper_by_jamesrudge-yes-pacman.jpg");
