@@ -3,7 +3,6 @@ html {
   background-size: contain;
   background-position: center center;
   background-attachment: fixed;
-  max-width: 150px;
 }
 html {
   height: 100%;
@@ -18,9 +17,8 @@ body h1 {
   font-family: 'Faster One', Arial, sans-serif;
   color: #d1c21d;
   background-color: black;
-  width: 90%;
-  margin-right: auto;
   margin-left: auto;
+  margin-right: auto;
 }
 h4 {
   color: #d1c21d;
@@ -29,11 +27,14 @@ h4 {
   text-align: center;
   font-size: 50px;
   padding: 0;
-  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
 }
-.text-background {
-  background-color: black;
-  width: 40em;
+#main {
+  margin-left: auto;
+  margin-right: auto;
 }
 #main .button {
   background-color: #0b64b2;
@@ -44,6 +45,17 @@ h4 {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.text-background {
+  background-color: black;
+  width: 40em;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 .vid {
   display: block;
