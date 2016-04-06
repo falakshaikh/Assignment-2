@@ -53,6 +53,9 @@ h4 {
 .button:active {
   background-color: #6d60d5;
 }
+.image_1 {
+  background-color: yellow;
+}
 .paragraph_1 {
   margin-left: 4em;
   margin-right: 4em;
