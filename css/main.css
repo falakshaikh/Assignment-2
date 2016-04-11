@@ -15,7 +15,7 @@ h1 {
   font-size: 100px;
   text-align: center;
   font-family: 'Faster One', Arial, sans-serif;
-  color: #e7d31d;
+  color: #eed31e;
   padding: 0;
   margin-top: 0;
   margin-bottom: .4em;
@@ -40,7 +40,7 @@ h4 {
   margin-right: 50%;
 }
 .button {
-  background-color: #0b64b2;
+  background-color: #0b85b3;
   border: none;
   color: white;
   padding: 5px 7px;
@@ -50,35 +50,80 @@ h4 {
   margin: 0 auto;
 }
 .button:hover {
-  background-color: #ba3d85;
+  background-color: #f08131;
+  color: black;
 }
 .button:active {
-  background-color: #6d60d5;
+  background-color: #d560a3;
 }
 .image_1 {
   width: 400px;
   height: auto;
-  padding-right: 5em;
+  margin-left: 3em;
+  margin-right: 3em;
+  padding: .25em;
+  background-color: #55c8fa;
+  width: 100%;
+  min-width: 200px;
+  max-width: 350px;
 }
 .image_2 {
   width: 400px;
   height: auto;
+  margin-left: 3em;
+  margin-right: 3em;
+  padding: .25em;
+  background-color: #55c8fa;
+  width: 100%;
+  min-width: 200px;
+  max-width: 350px;
 }
 .image_3 {
   width: 400px;
   height: auto;
+  margin-left: 3em;
+  margin-right: 3em;
+  padding: .25em;
+  background-color: #e97dee;
+  width: 100%;
+  min-width: 200px;
+  max-width: 350px;
 }
 .image_4 {
   width: 400px;
   height: auto;
+  margin-bottom: 2em;
+  margin-left: 3em;
+  margin-right: 3em;
+  padding: .25em;
+  background-color: #e97dee;
+  width: 100%;
+  min-width: 200px;
+  max-width: 350px;
 }
 .image_5 {
   width: 400px;
   height: auto;
+  margin-bottom: 2em;
+  margin-left: 3em;
+  margin-right: 3em;
+  padding: .25em;
+  background-color: #e3341c;
+  width: 100%;
+  min-width: 200px;
+  max-width: 350px;
 }
 .image_6 {
   width: 400px;
   height: auto;
+  margin-bottom: 2em;
+  margin-left: 3em;
+  margin-right: 3em;
+  padding: .25em;
+  background-color: #e3341c;
+  width: 100%;
+  min-width: 200px;
+  max-width: 350px;
 }
 .paragraph_1 {
   margin-left: 4em;
@@ -88,6 +133,7 @@ h4 {
 }
 .outline {
   padding: .5em;
+  background-color: #052d85;
   margin-left: 4em;
   margin-right: 4em;
   margin-bottom: 1.5em;
@@ -116,8 +162,9 @@ div.centered table {
   text-align: left;
 }
 .paragraph_wrapper {
+  background-color: black;
   font-family: sans-serif;
-  color: white;
+  color: #cccccc;
   text-align: center;
   padding: .3em;
   padding-bottom: 1.5em;
@@ -126,22 +173,31 @@ div.centered table {
   display: block;
   background-color: #e49000;
   padding: 5px;
-  margin: 0 auto;
+  margin-left: 2em;
+  margin-right: 2em;
 }
 .vid2 {
   display: block;
   background-color: #e49000;
   padding: 5px;
   margin: 0 auto;
+  margin-left: 2em;
+  margin-right: 2em;
 }
 .vid3 {
   display: block;
   background-color: #e49000;
   padding: 5px;
   margin: 0 auto;
+  margin-left: 2em;
+  margin-right: 2em;
 }
 .buttons {
   text-align: center;
+}
+.vids {
+  min-width: 350px;
+  margin-top: 1em;
 }
 /*
 html {
